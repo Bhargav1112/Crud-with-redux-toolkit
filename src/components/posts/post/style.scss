@@ -1,0 +1,49 @@
+.post-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+  background-color: #e9ecef;
+  .content{
+    .post-text{
+      font-size: 1.5rem;
+    }
+    .author{
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #495057;
+      font-style: italic;
+    }
+  }
+
+  .action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    button{
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.5s;
+
+      &.edit-btn{
+        background-color: #3bc9db;
+        color: #fff;
+        &:hover{
+          background-color: #22b8cf;
+        }
+      }
+      &.delete-btn{
+        background-color: #ff8787;
+        color: #fff;
+        &:hover{
+          background-color: #ff6b6b;
+        }
+      }
+    }
+  }
+}

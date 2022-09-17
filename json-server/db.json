@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "id": 390,
+      "title": "bhargav",
+      "author": "12346"
+    },
+    {
+      "id": 31,
+      "title": "this is test data",
+      "author": "bhargav"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
